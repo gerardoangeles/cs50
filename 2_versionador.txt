@@ -1,0 +1,107 @@
+Git
+
+https://git-scm.com/book/en/v2
+https://git-scm.com/search/results?search=clone
+
+Step 0
+
+    Login
+
+Step 1
+
+    Create a Repository
+
+        https://github.com/new
+
+            Repository name:
+            Description:
+            Public or private:
+
+            Optional
+
+                Add readme
+                Add .gitignore    
+                Add license
+
+Step 2
+
+    Get the repository locally 
+
+        Clone command
+
+            git clone <url>
+
+            This command Clone a repository into a new directory (from url)
+
+            Clone Repository
+
+                git clone https://github.com/gerardoangeles/cs50.git
+
+        Create a file into local repository
+
+            For example you can create a file with: touch hello.html 
+
+        Add command
+
+            git add <filename>
+
+            This command Add file contents to the index
+
+            Add a file to the index
+
+                git add hi.html
+
+        Commit command
+
+            git commit -m "reason why changes are recorded in the repository"
+
+            This command record changes to the repository
+
+            Commit the file
+
+                git commit -m "probando registro en repositorio 15-Ago-2021 11:13"
+
+        Status command
+
+            git status 
+
+            This command Show the working tree status
+
+        Push command
+
+            git push
+
+            This command update remote refs along with associated objects
+
+Step 3
+
+    Make a change to any file in the local repository
+
+        Status command
+
+            git status 
+
+            Maybe you see:
+
+                Changes not staged for commit:
+
+                    modified:   fileName.html
+
+                Untracked files:
+
+                    someFile.txt     
+
+        Commit -am command               
+
+            commit -am "the reason for the recording"
+
+            The switches:
+
+            -a or  --all
+
+            Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
+
+            -m <msg> or --message=<msg>
+            
+            Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenated as separate paragraphs.
+
