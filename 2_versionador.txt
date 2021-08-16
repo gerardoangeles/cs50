@@ -105,3 +105,37 @@ Step 3
             
             Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenated as separate paragraphs.
 
+        Push command
+
+            git push
+
+            (update remote refs)
+
+        Is all ok?
+
+        error: failed to push some refs to <url>
+
+            hint: Updates were rejected because the remote contains work that you do
+            hint: not have locally. This is usually caused by another repository pushing
+            hint: to the same ref. You may want to first integrate the remote changes
+            hint: (e.g., 'git pull ...') before pushing again.
+            hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+        Pull command
+
+            git pull
+
+            This command  Fetch from and integrate with another repository or a local branch
+
+        Push command (again)
+
+            git push
+
+            (again update remote refs)
+
+
+
+
+
+
+
