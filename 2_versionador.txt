@@ -133,6 +133,19 @@ Step 3
 
             (again update remote refs)
 
+Step 4
+
+    There are new changes in the remote repository.
+
+        Pull command
+
+            git pull
+
+Step 5
+
+    Merge
+
+        <new>
 
 
 
