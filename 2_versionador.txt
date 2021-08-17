@@ -157,6 +157,10 @@ Step 4
 
 Step 5
 
+    git commit
+    git pull
+    
+
     Merge
 
         git merge 
