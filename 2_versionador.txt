@@ -153,12 +153,32 @@ Step 5
         This command Join two or more development histories together
 
 Step 6
+   
+    git log 
 
-    ?
+    This command show commit logs
 
+Other commands
 
+    git reset
 
+    This command reset current HEAD to the specified state
 
+Branching
 
+    git branch
 
+        List, create, or delete branches
 
+    git checkout
+
+        Switch branches or restore working tree files
+
+        Example:
+
+            git checkout -b spanish
+
+    Con git branch podemo obsercar que ramas hay y a que rama estamos apuntando
+
+    La rama a la que se apunta o con la cual se esta trabajando se indica con el asterisco (star)
+    
