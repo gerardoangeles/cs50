@@ -178,7 +178,91 @@ Branching
 
             git checkout -b spanish
 
+            Switch -b crea una nueva rama
+
     Con git branch podemo obsercar que ramas hay y a que rama estamos apuntando
 
     La rama a la que se apunta o con la cual se esta trabajando se indica con el asterisco (star)
-    
+
+    Para cambiar a otra rama se usa:
+
+        git checkout <rama>
+
+        Por ejemplo:
+
+            git checkout main
+
+    Para integrar los cambios de una rama a otra se usa "merge":
+
+        git merge <branchName>
+
+        Por ejemplo:
+
+        git merge spanish
+
+GitHub Pages
+
+    GitHub website for free
+
+    Paso 1
+
+        Crear un nuevo repositorio:
+
+            https://github.com/new
+
+            Seguir la convencion del nombre del sitio:
+
+                nombre de usuario github
+                github
+                into
+
+            Por ejemplo:
+
+                gerardoangeles.github.io
+
+    Paso 2
+
+        Clonar el repositorio creado a un ambiente local
+
+
+            git clone https://github.com/gerardoangeles/gerardoangeles.github.io.git
+
+    Paso 3
+
+        Crea un archivo
+
+    Paso 4
+
+        Agregar el archivo creado
+
+            git add index.html
+
+    Paso 5
+
+        Registrar los cambios realizados
+
+            git commit -m "Primer commit 16-08-2021"
+
+    Paso 6
+
+        Enviar el archivo creado a github
+
+            git push
+
+    Paso 7
+
+        En github refresca la página o ve al repositorio creado
+
+    Paso 8
+
+        Ve a configuración (Settings)
+
+        En la sección "GitHub Pages" observarás que ahora dice: "Pages settings now has its own dedicated tab! Check it out here!"
+
+        Encontrarás que dice " Your site is published at <your_url>"
+
+        Clic en URL para ver tu página.
+
+
+
+
